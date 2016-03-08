@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930F1677E2F626FB9A69FF79 /* Pods_Yep_CopyCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05239F5108B0857E88D977 /* Pods_Yep_CopyCat.framework */; };
 		CA3A67B21C8F35F900CC2013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */; };
 		CA3A67B41C8F35F900CC2013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67B31C8F35F900CC2013 /* ViewController.swift */; };
 		CA3A67B71C8F35F900CC2013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3A67B51C8F35F900CC2013 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C05239F5108B0857E88D977 /* Pods_Yep_CopyCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yep_CopyCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3A67AE1C8F35F900CC2013 /* Yep-CopyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yep-CopyCat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA3A67B31C8F35F900CC2013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		CA3A67CD1C8F35F900CC2013 /* Yep-CopyCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yep-CopyCatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yep_CopyCatUITests.swift; sourceTree = "<group>"; };
 		CA3A67D31C8F35F900CC2013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF3FD53E610F69261FC002D /* Pods-Yep-CopyCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.release.xcconfig"; sourceTree = "<group>"; };
+		FA196A1ED7CCA7A9D293DCE9 /* Pods-Yep-CopyCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930F1677E2F626FB9A69FF79 /* Pods_Yep_CopyCat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940CDFD3D8BC59146B6BBDEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C05239F5108B0857E88D977 /* Pods_Yep_CopyCat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C993F6D266965B09EEA7517E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA196A1ED7CCA7A9D293DCE9 /* Pods-Yep-CopyCat.debug.xcconfig */,
+				CFF3FD53E610F69261FC002D /* Pods-Yep-CopyCat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CA3A67A51C8F35F900CC2013 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				CA3A67C51C8F35F900CC2013 /* Yep-CopyCatTests */,
 				CA3A67D01C8F35F900CC2013 /* Yep-CopyCatUITests */,
 				CA3A67AF1C8F35F900CC2013 /* Products */,
+				C993F6D266965B09EEA7517E /* Pods */,
+				940CDFD3D8BC59146B6BBDEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA3A67D61C8F35F900CC2013 /* Build configuration list for PBXNativeTarget "Yep-CopyCat" */;
 			buildPhases = (
+				D830ED1D258C1F6930D78765 /* Check Pods Manifest.lock */,
 				CA3A67AA1C8F35F900CC2013 /* Sources */,
 				CA3A67AB1C8F35F900CC2013 /* Frameworks */,
 				CA3A67AC1C8F35F900CC2013 /* Resources */,
+				7E02624F7412DEF82912BF00 /* Embed Pods Frameworks */,
+				D8CF7C734405BB4C36D4F8CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E02624F7412DEF82912BF00 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D830ED1D258C1F6930D78765 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CF7C734405BB4C36D4F8CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA3A67AA1C8F35F900CC2013 /* Sources */ = {
@@ -397,6 +472,7 @@
 		};
 		CA3A67D71C8F35F900CC2013 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA196A1ED7CCA7A9D293DCE9 /* Pods-Yep-CopyCat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yep-CopyCat/Info.plist";
@@ -408,6 +484,7 @@
 		};
 		CA3A67D81C8F35F900CC2013 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF3FD53E610F69261FC002D /* Pods-Yep-CopyCat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yep-CopyCat/Info.plist";
@@ -484,6 +561,7 @@
 				CA3A67D81C8F35F900CC2013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA3A67D91C8F35F900CC2013 /* Build configuration list for PBXNativeTarget "Yep-CopyCatTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +570,7 @@
 				CA3A67DB1C8F35F900CC2013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA3A67DC1C8F35F900CC2013 /* Build configuration list for PBXNativeTarget "Yep-CopyCatUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +579,7 @@
 				CA3A67DE1C8F35F900CC2013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -26,6 +26,6 @@ def pods
     pod 'Crashlytics'
 end
 
-target 'Yep' do
+target 'Yep-CopyCat' do
     pods
 end
