@@ -15,7 +15,13 @@
 		CA3A67C71C8F35F900CC2013 /* Yep_CopyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67C61C8F35F900CC2013 /* Yep_CopyCatTests.swift */; };
 		CA3A67D21C8F35F900CC2013 /* Yep_CopyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */; };
 		CA8883581C91AA9F009EF073 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8883571C91AA9F009EF073 /* Images.xcassets */; };
+		CA88835A1C91AB91009EF073 /* Show.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8883591C91AB91009EF073 /* Show.storyboard */; };
 		CA88835D1C91B133009EF073 /* Show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA88835C1C91B133009EF073 /* Show.xcassets */; };
+		CA8883611C91B7DF009EF073 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8883601C91B7DF009EF073 /* ShowViewController.swift */; };
+		CA8883631C91B7F5009EF073 /* ShowStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8883621C91B7F5009EF073 /* ShowStepViewController.swift */; };
+		CA8883651C91B804009EF073 /* ShowStepGeniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8883641C91B804009EF073 /* ShowStepGeniusViewController.swift */; };
+		CA8883671C91B81B009EF073 /* ShowStepMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8883661C91B81B009EF073 /* ShowStepMatchViewController.swift */; };
+		CA8883691C91B825009EF073 /* ShowStepMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8883681C91B825009EF073 /* ShowStepMeetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +56,13 @@
 		CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yep_CopyCatUITests.swift; sourceTree = "<group>"; };
 		CA3A67D31C8F35F900CC2013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA8883571C91AA9F009EF073 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA8883591C91AB91009EF073 /* Show.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Show.storyboard; sourceTree = "<group>"; };
 		CA88835C1C91B133009EF073 /* Show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Show.xcassets; sourceTree = "<group>"; };
+		CA8883601C91B7DF009EF073 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		CA8883621C91B7F5009EF073 /* ShowStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepViewController.swift; sourceTree = "<group>"; };
+		CA8883641C91B804009EF073 /* ShowStepGeniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepGeniusViewController.swift; sourceTree = "<group>"; };
+		CA8883661C91B81B009EF073 /* ShowStepMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMatchViewController.swift; sourceTree = "<group>"; };
+		CA8883681C91B825009EF073 /* ShowStepMeetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMeetViewController.swift; sourceTree = "<group>"; };
 		CFF3FD53E610F69261FC002D /* Pods-Yep-CopyCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.release.xcconfig"; sourceTree = "<group>"; };
 		FA196A1ED7CCA7A9D293DCE9 /* Pods-Yep-CopyCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,9 +135,11 @@
 		CA3A67B01C8F35F900CC2013 /* Yep-CopyCat */ = {
 			isa = PBXGroup;
 			children = (
+				CA88835E1C91B773009EF073 /* ViewControllers */,
 				CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */,
 				CA3A67B31C8F35F900CC2013 /* ViewController.swift */,
 				CA3A67B51C8F35F900CC2013 /* Main.storyboard */,
+				CA8883591C91AB91009EF073 /* Show.storyboard */,
 				CA8883571C91AA9F009EF073 /* Images.xcassets */,
 				CA3A67BA1C8F35F900CC2013 /* LaunchScreen.storyboard */,
 				CA88835C1C91B133009EF073 /* Show.xcassets */,
@@ -150,6 +164,26 @@
 				CA3A67D31C8F35F900CC2013 /* Info.plist */,
 			);
 			path = "Yep-CopyCatUITests";
+			sourceTree = "<group>";
+		};
+		CA88835E1C91B773009EF073 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA88835F1C91B7C1009EF073 /* Show */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA88835F1C91B7C1009EF073 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				CA8883601C91B7DF009EF073 /* ShowViewController.swift */,
+				CA8883621C91B7F5009EF073 /* ShowStepViewController.swift */,
+				CA8883641C91B804009EF073 /* ShowStepGeniusViewController.swift */,
+				CA8883661C91B81B009EF073 /* ShowStepMatchViewController.swift */,
+				CA8883681C91B825009EF073 /* ShowStepMeetViewController.swift */,
+			);
+			path = Show;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +296,7 @@
 				CA3A67BC1C8F35F900CC2013 /* LaunchScreen.storyboard in Resources */,
 				CA8883581C91AA9F009EF073 /* Images.xcassets in Resources */,
 				CA3A67B71C8F35F900CC2013 /* Main.storyboard in Resources */,
+				CA88835A1C91AB91009EF073 /* Show.storyboard in Resources */,
 				CA88835D1C91B133009EF073 /* Show.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,8 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8883651C91B804009EF073 /* ShowStepGeniusViewController.swift in Sources */,
+				CA8883671C91B81B009EF073 /* ShowStepMatchViewController.swift in Sources */,
 				CA3A67B41C8F35F900CC2013 /* ViewController.swift in Sources */,
 				CA3A67B21C8F35F900CC2013 /* AppDelegate.swift in Sources */,
+				CA8883611C91B7DF009EF073 /* ShowViewController.swift in Sources */,
+				CA8883631C91B7F5009EF073 /* ShowStepViewController.swift in Sources */,
+				CA8883691C91B825009EF073 /* ShowStepMeetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
