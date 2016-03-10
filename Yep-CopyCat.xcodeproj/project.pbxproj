@@ -15,6 +15,7 @@
 		CA3A67C71C8F35F900CC2013 /* Yep_CopyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67C61C8F35F900CC2013 /* Yep_CopyCatTests.swift */; };
 		CA3A67D21C8F35F900CC2013 /* Yep_CopyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */; };
 		CA8883581C91AA9F009EF073 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8883571C91AA9F009EF073 /* Images.xcassets */; };
+		CA88835D1C91B133009EF073 /* Show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA88835C1C91B133009EF073 /* Show.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yep_CopyCatUITests.swift; sourceTree = "<group>"; };
 		CA3A67D31C8F35F900CC2013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA8883571C91AA9F009EF073 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA88835C1C91B133009EF073 /* Show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Show.xcassets; sourceTree = "<group>"; };
 		CFF3FD53E610F69261FC002D /* Pods-Yep-CopyCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.release.xcconfig"; sourceTree = "<group>"; };
 		FA196A1ED7CCA7A9D293DCE9 /* Pods-Yep-CopyCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yep-CopyCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yep-CopyCat/Pods-Yep-CopyCat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 				CA3A67B51C8F35F900CC2013 /* Main.storyboard */,
 				CA8883571C91AA9F009EF073 /* Images.xcassets */,
 				CA3A67BA1C8F35F900CC2013 /* LaunchScreen.storyboard */,
+				CA88835C1C91B133009EF073 /* Show.xcassets */,
 				CA3A67BD1C8F35F900CC2013 /* Info.plist */,
 			);
 			path = "Yep-CopyCat";
@@ -259,6 +262,7 @@
 				CA3A67BC1C8F35F900CC2013 /* LaunchScreen.storyboard in Resources */,
 				CA8883581C91AA9F009EF073 /* Images.xcassets in Resources */,
 				CA3A67B71C8F35F900CC2013 /* Main.storyboard in Resources */,
+				CA88835D1C91B133009EF073 /* Show.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
