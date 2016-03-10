@@ -11,7 +11,6 @@
 		CA3A67B21C8F35F900CC2013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */; };
 		CA3A67B41C8F35F900CC2013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67B31C8F35F900CC2013 /* ViewController.swift */; };
 		CA3A67B71C8F35F900CC2013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3A67B51C8F35F900CC2013 /* Main.storyboard */; };
-		CA3A67B91C8F35F900CC2013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3A67B81C8F35F900CC2013 /* Assets.xcassets */; };
 		CA3A67BC1C8F35F900CC2013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3A67BA1C8F35F900CC2013 /* LaunchScreen.storyboard */; };
 		CA3A67C71C8F35F900CC2013 /* Yep_CopyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67C61C8F35F900CC2013 /* Yep_CopyCatTests.swift */; };
 		CA3A67D21C8F35F900CC2013 /* Yep_CopyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A67D11C8F35F900CC2013 /* Yep_CopyCatUITests.swift */; };
@@ -41,7 +40,6 @@
 		CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA3A67B31C8F35F900CC2013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA3A67B61C8F35F900CC2013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA3A67B81C8F35F900CC2013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3A67BB1C8F35F900CC2013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3A67BD1C8F35F900CC2013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA3A67C21C8F35F900CC2013 /* Yep-CopyCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yep-CopyCatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +124,6 @@
 				CA3A67B11C8F35F900CC2013 /* AppDelegate.swift */,
 				CA3A67B31C8F35F900CC2013 /* ViewController.swift */,
 				CA3A67B51C8F35F900CC2013 /* Main.storyboard */,
-				CA3A67B81C8F35F900CC2013 /* Assets.xcassets */,
 				CA8883571C91AA9F009EF073 /* Images.xcassets */,
 				CA3A67BA1C8F35F900CC2013 /* LaunchScreen.storyboard */,
 				CA3A67BD1C8F35F900CC2013 /* Info.plist */,
@@ -261,7 +258,6 @@
 			files = (
 				CA3A67BC1C8F35F900CC2013 /* LaunchScreen.storyboard in Resources */,
 				CA8883581C91AA9F009EF073 /* Images.xcassets in Resources */,
-				CA3A67B91C8F35F900CC2013 /* Assets.xcassets in Resources */,
 				CA3A67B71C8F35F900CC2013 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
